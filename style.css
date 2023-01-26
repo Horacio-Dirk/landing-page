@@ -12,16 +12,17 @@ body {
 .section-one {
     background-color: #1F2937;
     color: #E5E7EB;
-    padding: 20px 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
 }
 .header {
     display: flex;
-    flex-direction: row;
     font-size: 18px;
-    align-items: flex-start;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    
+    gap: 500px;
+    flex: 0 1 auto;
+    margin-top: 20px;
 }
 .logo-tipo { 
     display: flex;
@@ -45,14 +46,14 @@ body {
     list-style: none;
     display: flex;
     gap: 40px; 
-    
+  
 }
 
 .hero {
     display: flex;
     justify-content: space-between;
     padding: 100px 0;
-    gap: 25px;
+    gap: 40px;
     
 }
 
@@ -182,7 +183,9 @@ img {
 .olu {
     margin-top: 0;
     font-size: 20px;
+    display: flex;
 }
+
 .right{
     display: flex;
     align-items: flex-end;
